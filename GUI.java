@@ -45,6 +45,15 @@ public class GUI{
 
         menuFile= new JMenu("File");
         menuBar.add(menuFile);
+
+        menuEdit= new JMenu("Edit");
+        menuBar.add(menuEdit);
+
+        menuFormat= new JMenu("Format");
+        menuBar.add(menuFormat);
+
+        menuColor= new JMenu("Color");
+        menuBar.add(menuColor);
     }
 
 }
