@@ -4,4 +4,8 @@ public class Function_File {
     public Function_File(GUI gui){
         this.gui= gui;
     }
+
+    public void newFile(){
+        
+    }
 }
