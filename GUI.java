@@ -27,6 +27,7 @@ public class GUI{
 
     public void createTextArea(){
         textArea= new JTextArea();
-        window.add(textArea);
+        scrollPane= new JScrollPane(textArea, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+        window.add(scrollPane);
     }
 }
