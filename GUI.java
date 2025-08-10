@@ -12,7 +12,7 @@ public class GUI{
     public GUI(){
         // call methods below
         createWindow();
-
+        createTextArea();
         // call method above
         window.setVisible(true);
     }
@@ -21,5 +21,10 @@ public class GUI{
         window= new JFrame("Leaflet");
         window.setSize(900, 700);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+
+    public void createTextArea(){
+        textArea= new JTextArea();
+        window.add(textArea);
     }
 }
