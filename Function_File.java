@@ -1,3 +1,6 @@
+import java.awt.FileDialog;
+import java.io.File;
+
 public class Function_File {
     GUI gui;
 
@@ -11,6 +14,7 @@ public class Function_File {
     }
 
     public void openFile(){
-        
+        FileDialog fd= new FileDialog(gui.window, "Open", FileDialog.LOAD);
+        fd.setVisible(true);
     }
 }
