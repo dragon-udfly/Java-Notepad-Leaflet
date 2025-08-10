@@ -42,6 +42,9 @@ public class GUI{
     public void createMenuBar(){
         menuBar= new JMenuBar();
         window.setJMenuBar(menuBar);
+
+        menuFile= new JMenu("File");
+        menuBar.add(menuFile);
     }
 
 }
