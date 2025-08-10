@@ -63,6 +63,8 @@ public class GUI implements ActionListener{
 
     public void createFileMenu(){
         itemNew= new JMenuItem("New");
+        itemNew.addActionListener(this);
+        itemNew.setActionCommand("New");
         menuFile.add(itemNew);
 
         itemOpen= new JMenuItem("Open");
