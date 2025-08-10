@@ -6,6 +6,6 @@ public class Function_File {
     }
 
     public void newFile(){
-        
+        gui.textArea.setText(" ");
     }
 }
