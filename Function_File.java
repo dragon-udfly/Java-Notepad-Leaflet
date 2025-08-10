@@ -1,7 +1,7 @@
 public class Function_File {
     GUI gui;
 
-    public Function_File(){
-        
+    public Function_File(GUI gui){
+        this.gui= gui;
     }
 }
