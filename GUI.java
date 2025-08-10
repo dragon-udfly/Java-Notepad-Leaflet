@@ -1,5 +1,6 @@
 import javax.swing.BorderFactory;
 import javax.swing.JFrame;
+import javax.swing.JMenuBar;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
@@ -8,6 +9,8 @@ public class GUI{
     JFrame window;
     JTextArea textArea;
     JScrollPane scrollPane;
+    JMenuBar menuBar;
+
     public static void main(String args[]){
         new GUI();
     }
