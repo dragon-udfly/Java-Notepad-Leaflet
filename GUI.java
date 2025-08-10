@@ -11,7 +11,7 @@ public class GUI{
     JTextArea textArea;
     JScrollPane scrollPane;
     JMenuBar menuBar;
-    JMenu menuFile;
+    JMenu menuFile, menuEdit, menuFormat, menuColor;
 
     public static void main(String args[]){
         new GUI();
