@@ -2,6 +2,7 @@ import javax.swing.BorderFactory;
 import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
@@ -12,6 +13,7 @@ public class GUI{
     JScrollPane scrollPane;
     JMenuBar menuBar;
     JMenu menuFile, menuEdit, menuFormat, menuColor;
+    JMenuItem itemNew, itemOpen, itemSave, itemSaveAs, itemExit;
 
     public static void main(String args[]){
         new GUI();
