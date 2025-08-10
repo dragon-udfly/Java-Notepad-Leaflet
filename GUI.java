@@ -1,8 +1,10 @@
 import javax.swing.JFrame;
+import javax.swing.JTextArea;
 
 public class GUI{
 
     JFrame window;
+    JTextArea textArea;
     public static void main(String args[]){
         new GUI();
     }
