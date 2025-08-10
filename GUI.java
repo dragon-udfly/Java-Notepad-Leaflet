@@ -92,6 +92,9 @@ public class GUI implements ActionListener{
             case "New":
             file.newFile();
             break;
+            case "Open":
+            file.openFile();
+            break;
         }
     }
 
