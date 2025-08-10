@@ -1,10 +1,12 @@
 import javax.swing.JFrame;
+import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 public class GUI{
 
     JFrame window;
     JTextArea textArea;
+    JScrollPane scrollPane;
     public static void main(String args[]){
         new GUI();
     }
