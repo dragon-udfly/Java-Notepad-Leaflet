@@ -5,8 +5,10 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class GUI{
+public class GUI implements ActionListener{
 
     JFrame window;
     JTextArea textArea;
@@ -74,6 +76,12 @@ public class GUI{
 
         itemExit= new JMenuItem("Exit");
         menuFile.add(itemExit);
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'actionPerformed'");
     }
 
 }
