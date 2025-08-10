@@ -9,4 +9,8 @@ public class Function_File {
         gui.textArea.setText(" ");
         gui.window.setTitle("New");
     }
+
+    public void openFile(){
+        
+    }
 }
