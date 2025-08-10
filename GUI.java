@@ -24,6 +24,7 @@ public class GUI{
         createWindow();
         createTextArea();
         createMenuBar();
+        createFileMenu();
         // call method above
         window.setVisible(true);
     }
@@ -56,6 +57,23 @@ public class GUI{
 
         menuColor= new JMenu("Color");
         menuBar.add(menuColor);
+    }
+
+    public void createFileMenu(){
+        itemNew= new JMenuItem("New");
+        menuFile.add(itemNew);
+
+        itemOpen= new JMenuItem("Open");
+        menuFile.add(itemOpen);
+
+        itemSave= new JMenuItem("Save");
+        menuFile.add(itemSave);
+
+        itemSaveAs= new JMenuItem("Save As");
+        menuFile.add(itemSaveAs);
+
+        itemExit= new JMenuItem("Exit");
+        menuFile.add(itemExit);
     }
 
 }
