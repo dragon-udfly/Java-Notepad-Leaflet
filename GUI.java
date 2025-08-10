@@ -85,6 +85,12 @@ public class GUI implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e) {
         String command= e.getActionCommand();
+
+        switch(command){
+            case "New":
+            file.newFile();
+            break;
+        }
     }
 
 }
