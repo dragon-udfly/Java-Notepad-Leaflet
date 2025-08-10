@@ -19,6 +19,7 @@ public class GUI{
         // call methods below
         createWindow();
         createTextArea();
+        createMenuBar();
         // call method above
         window.setVisible(true);
     }
@@ -35,4 +36,10 @@ public class GUI{
         scrollPane.setBorder(BorderFactory.createEmptyBorder());
         window.add(scrollPane);
     }
+
+    public void createMenuBar(){
+        menuBar= new JMenuBar();
+        window.setJMenuBar(menuBar);
+    }
+
 }
