@@ -20,6 +20,7 @@ public class Function_File {
 
         if(fd.getFile() != null){
             fileName= fd.getFile();
+            filePath= fd.getDirectory();
         }
     }
 }
