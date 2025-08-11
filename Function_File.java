@@ -33,6 +33,8 @@ public class Function_File {
             while((line= br.readLine()) != null){
                 gui.textArea.setText(line+ "\n");
             }
+
+            br.close();
         }catch(Exception e){
 
         }
