@@ -29,6 +29,10 @@ public class Function_File {
             BufferedReader br= new BufferedReader(new FileReader(filePath + fileName));
             gui.textArea.setText("");
             String line= null;
+
+            while((line= br.readLine()) != null){
+                gui.textArea.setText(line+ "\n");
+            }
         }catch(Exception e){
 
         }
