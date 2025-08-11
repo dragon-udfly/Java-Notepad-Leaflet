@@ -39,4 +39,8 @@ public class Function_File {
             System.out.println("FILE CAN NOT BE OPENED.");
         }
     }
+
+    public void saveAsFile(){
+        
+    }
 }
