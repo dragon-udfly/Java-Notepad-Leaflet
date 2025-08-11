@@ -27,6 +27,7 @@ public class Function_File {
 
         try{
             BufferedReader br= new BufferedReader(new FileReader(filePath + fileName));
+            gui.textArea.setText("");
         }catch(Exception e){
 
         }
