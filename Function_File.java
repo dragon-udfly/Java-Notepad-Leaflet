@@ -17,5 +17,9 @@ public class Function_File {
     public void openFile(){
         FileDialog fd= new FileDialog(gui.window, "Open", FileDialog.LOAD);
         fd.setVisible(true);
+
+        if(fd.getFile() != null){
+            fileName= fd.getFile();
+        }
     }
 }
