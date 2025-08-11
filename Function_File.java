@@ -43,5 +43,11 @@ public class Function_File {
     public void saveAsFile(){
         FileDialog fd= new FileDialog(gui.window, "Save As", FileDialog.SAVE);
         fd.setVisible(true);
+
+        if(fd.getFile() != null){
+            fileName= fd.getFile();
+            filePath= fd.getDirectory();
+            gui.window.setTitle(fileName);
+        }
     }
 }
