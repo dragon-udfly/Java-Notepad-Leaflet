@@ -63,6 +63,15 @@ public class Function_File {
     public void saveFile(){
         if(fileName == null){
             saveAsFile();
+        }else{
+            try{
+                FileWriter fw= new FileWriter(filePath + fileName);
+                fw.write(gui.textArea.getText());
+                gui.window.setTitle(fileName);
+                fw.close();
+            }catch(Exception e){
+                System.out.println("FILE CAN NOT BE WRITEN.");
+            }
         }
     }
 }
