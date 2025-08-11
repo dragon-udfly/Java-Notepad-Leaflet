@@ -54,6 +54,7 @@ public class Function_File {
         try{
             FileWriter fw= new FileWriter(filePath + fileName);
             fw.write(gui.textArea.getText());
+            fw.close();
         }catch(Exception e){
             System.out.println("FILE CAN NOT BE SAVED.");
         }
