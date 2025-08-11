@@ -51,14 +51,14 @@ public class Function_File {
             fileName= fd.getFile();
             filePath= fd.getDirectory();
             gui.window.setTitle(fileName);
-        }
-
-        try{
-            FileWriter fw= new FileWriter(filePath + fileName);
-            fw.write(gui.textArea.getText());
-            fw.close();
-        }catch(Exception e){
-            System.out.println("FILE CAN NOT BE SAVED.");
+        
+            try{
+                FileWriter fw= new FileWriter(filePath + fileName);
+                fw.write(gui.textArea.getText());
+                fw.close();
+            }catch(Exception e){
+                System.out.println("FILE CAN NOT BE SAVED.");
+            }
         }
     }
 
