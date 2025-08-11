@@ -3,6 +3,7 @@ import java.io.File;
 
 public class Function_File {
     GUI gui;
+    String fileName, filePath;
 
     public Function_File(GUI gui){
         this.gui= gui;
