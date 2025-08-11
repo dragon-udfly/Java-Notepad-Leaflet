@@ -1,5 +1,6 @@
 import java.awt.FileDialog;
-import java.io.File;
+import java.io.BufferedReader;
+import java.io.FileReader;
 
 public class Function_File {
     GUI gui;
@@ -22,6 +23,12 @@ public class Function_File {
             fileName= fd.getFile();
             filePath= fd.getDirectory();
             gui.window.setTitle(fileName);
+        }
+
+        try{
+            BufferedReader br= new BufferedReader(new FileReader(filePath + fileName));
+        }catch(Exception e){
+
         }
     }
 }
