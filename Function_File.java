@@ -41,6 +41,7 @@ public class Function_File {
     }
 
     public void saveAsFile(){
-        
+        FileDialog fd= new FileDialog(gui.window, "Save As", FileDialog.SAVE);
+        fd.setVisible(true);
     }
 }
