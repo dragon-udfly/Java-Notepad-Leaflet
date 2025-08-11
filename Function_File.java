@@ -36,7 +36,7 @@ public class Function_File {
 
             br.close();
         }catch(Exception e){
-
+            System.out.println("FILE CAN NOT BE OPENED.");
         }
     }
 }
