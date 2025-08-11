@@ -61,6 +61,8 @@ public class Function_File {
     }
 
     public void saveFile(){
-        
+        if(fileName == null){
+            saveAsFile();
+        }
     }
 }
