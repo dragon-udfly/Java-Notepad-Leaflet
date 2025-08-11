@@ -31,7 +31,7 @@ public class Function_File {
             String line= null;
 
             while((line= br.readLine()) != null){
-                gui.textArea.setText(line+ "\n");
+                gui.textArea.append(line + "\n");
             }
 
             br.close();
