@@ -85,6 +85,8 @@ public class GUI implements ActionListener{
         menuFile.add(itemSaveAs);
 
         itemExit= new JMenuItem("Exit");
+        itemExit.addActionListener(this);
+        itemExit.setActionCommand("Exit");
         menuFile.add(itemExit);
     }
 
