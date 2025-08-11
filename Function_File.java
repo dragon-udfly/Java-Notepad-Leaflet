@@ -1,6 +1,7 @@
 import java.awt.FileDialog;
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.FileWriter;
 
 public class Function_File {
     GUI gui;
@@ -48,6 +49,12 @@ public class Function_File {
             fileName= fd.getFile();
             filePath= fd.getDirectory();
             gui.window.setTitle(fileName);
+        }
+
+        try{
+            FileWriter fw= new FileWriter(filePath + fileName);
+        }catch(Exception e){
+            System.out.println("FILE CAN NOT BE SAVED.");
         }
     }
 }
