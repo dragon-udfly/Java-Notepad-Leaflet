@@ -96,6 +96,7 @@ public class GUI implements ActionListener{
     public void createFormatMenu(){
         itemWrap= new JMenuItem("Word Wrap: Off");
         itemWrap.addActionListener(this);
+        itemWrap.setActionCommand("Word Wrap");
     }
 
     @Override
