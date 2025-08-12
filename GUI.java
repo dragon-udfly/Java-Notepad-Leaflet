@@ -109,6 +109,11 @@ public class GUI implements ActionListener{
         itemFontArial.setActionCommand("Arial");
         menuFont.add(itemFontArial);
 
+        itemFontCSMS= new JMenuItem("Comic Sans");
+        itemFontCSMS.addActionListener(this);
+        itemFontCSMS.setActionCommand("Comic Sans");
+        menuFont.add(itemFontCSMS);
+
         menuFontSize= new JMenu("Font Size");
         menuFormat.add(menuFontSize);
     }
