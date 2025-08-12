@@ -4,4 +4,8 @@ public class Function_Format {
     public Function_Format(GUI gui){
         this.gui= gui;
     }
+
+    public void wordWrap(){
+        
+    }
 }
