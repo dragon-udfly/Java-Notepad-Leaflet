@@ -6,6 +6,8 @@ public class Function_Format {
     }
 
     public void wordWrap(){
-        
+        if(!gui.wordWrapOn){
+            gui.wordWrapOn= true;
+        }
     }
 }
