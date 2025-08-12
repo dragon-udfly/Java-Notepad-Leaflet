@@ -121,6 +121,11 @@ public class GUI implements ActionListener{
 
         menuFontSize= new JMenu("Font Size");
         menuFormat.add(menuFontSize);
+
+        itemFontSize8= new JMenuItem("8");
+        itemFontSize8.addActionListener(this);
+        itemFontSize8.setActionCommand("size8");
+        menuFontSize.add(itemFontSize8);
     }
 
     @Override
