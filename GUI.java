@@ -101,6 +101,9 @@ public class GUI implements ActionListener{
 
         menuFont= new JMenu("Font");
         menuFormat.add(menuFont);
+
+        menuFontSize= new JMenu("Font Size");
+        menuFormat.add(menuFontSize);
     }
 
     @Override
