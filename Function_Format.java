@@ -11,6 +11,11 @@ public class Function_Format {
             gui.textArea.setLineWrap(true);
             gui.textArea.setWrapStyleWord(true);
             gui.itemWrap.setText("Word Wrap: On");
+        }else{
+            gui.wordWrapOn= false;
+            gui.textArea.setLineWrap(false);
+            gui.textArea.setWrapStyleWord(false);
+            gui.itemWrap.setText("Word Wrap: Off");
         }
     }
 }
