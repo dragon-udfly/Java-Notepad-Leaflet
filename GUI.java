@@ -33,6 +33,7 @@ public class GUI implements ActionListener{
         createTextArea();
         createMenuBar();
         createFileMenu();
+        createFormatMenu();
         // call method above
         window.setVisible(true);
     }
