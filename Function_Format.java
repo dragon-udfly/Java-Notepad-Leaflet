@@ -10,6 +10,7 @@ public class Function_Format {
             gui.wordWrapOn= true;
             gui.textArea.setLineWrap(true);
             gui.textArea.setWrapStyleWord(true);
+            gui.itemWrap.setText("Word Wrap: On");
         }
     }
 }
