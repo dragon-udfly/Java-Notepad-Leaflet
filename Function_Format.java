@@ -9,6 +9,7 @@ public class Function_Format {
         if(!gui.wordWrapOn){
             gui.wordWrapOn= true;
             gui.textArea.setLineWrap(true);
+            gui.textArea.setWrapStyleWord(true);
         }
     }
 }
