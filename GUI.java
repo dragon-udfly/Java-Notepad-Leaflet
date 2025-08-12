@@ -98,6 +98,9 @@ public class GUI implements ActionListener{
         itemWrap.addActionListener(this);
         itemWrap.setActionCommand("Word Wrap");
         menuFormat.add(itemWrap);
+
+        menuFont= new JMenu("Font");
+        menuFormat.add(menuFont);
     }
 
     @Override
