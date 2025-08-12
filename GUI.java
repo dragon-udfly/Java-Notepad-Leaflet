@@ -94,7 +94,7 @@ public class GUI implements ActionListener{
     }
 
     public void createFormatMenu(){
-        
+        itemWrap= new JMenuItem("Word Wrap: Off");
     }
 
     @Override
