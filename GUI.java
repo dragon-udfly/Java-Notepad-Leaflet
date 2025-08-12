@@ -126,6 +126,31 @@ public class GUI implements ActionListener{
         itemFontSize8.addActionListener(this);
         itemFontSize8.setActionCommand("size8");
         menuFontSize.add(itemFontSize8);
+
+        itemFontSize12= new JMenuItem("12");
+        itemFontSize12.addActionListener(this);
+        itemFontSize12.setActionCommand("size12");
+        menuFontSize.add(itemFontSize12);
+
+        itemFontSize16= new JMenuItem("16");
+        itemFontSize16.addActionListener(this);
+        itemFontSize16.setActionCommand("size16");
+        menuFontSize.add(itemFontSize16);
+
+        itemFontSize20= new JMenuItem("20");
+        itemFontSize20.addActionListener(this);
+        itemFontSize20.setActionCommand("size20");
+        menuFontSize.add(itemFontSize20);
+
+        itemFontSize24= new JMenuItem("24");
+        itemFontSize24.addActionListener(this);
+        itemFontSize24.setActionCommand("size24");
+        menuFontSize.add(itemFontSize24);
+
+        itemFontSize28= new JMenuItem("28");
+        itemFontSize28.addActionListener(this);
+        itemFontSize28.setActionCommand("size28");
+        menuFontSize.add(itemFontSize28);
     }
 
     @Override
