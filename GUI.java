@@ -17,6 +17,7 @@ public class GUI implements ActionListener{
     JMenu menuFile, menuEdit, menuFormat, menuColor;
     JMenuItem itemNew, itemOpen, itemSave, itemSaveAs, itemExit;
     JMenuItem itemWrap;
+    JMenu menuFont, menuFontSize;
 
     Function_File file= new Function_File(this);
     Function_Format format= new Function_Format(this);
