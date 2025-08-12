@@ -114,6 +114,11 @@ public class GUI implements ActionListener{
         itemFontCSMS.setActionCommand("Comic Sans MS");
         menuFont.add(itemFontCSMS);
 
+        itemFontTNR= new JMenuItem("Times New Roman");
+        itemFontTNR.addActionListener(this);
+        itemFontTNR.setActionCommand("Times New Roman");
+        menuFont.add(itemFontTNR);
+
         menuFontSize= new JMenu("Font Size");
         menuFormat.add(menuFontSize);
     }
