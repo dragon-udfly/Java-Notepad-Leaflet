@@ -103,6 +103,11 @@ public class GUI implements ActionListener{
         menuFont= new JMenu("Font");
         menuFormat.add(menuFont);
 
+        itemFontArial= new JMenuItem("Arial");
+        itemFontArial.addActionListener(this);
+        itemFontArial.setActionCommand("Arial");
+        menuFont.add(itemFontArial);
+
         menuFontSize= new JMenu("Font Size");
         menuFormat.add(menuFontSize);
     }
