@@ -175,6 +175,9 @@ public class GUI implements ActionListener{
             case "Exit":
             file.exit();
             break;
+            case "Word Wrap":
+            format.wordWrap();
+            break;
         }
     }
 
