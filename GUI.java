@@ -93,6 +93,10 @@ public class GUI implements ActionListener{
         menuFile.add(itemExit);
     }
 
+    public void createFormatMenu(){
+        
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
         String command= e.getActionCommand();
