@@ -5,6 +5,8 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
+import javax.swing.event.UndoableEditEvent;
+import javax.swing.event.UndoableEditListener;
 import javax.swing.undo.UndoManager;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -62,6 +64,15 @@ public class GUI implements ActionListener{
 
     public void createTextArea(){
         textArea= new JTextArea();
+
+        textArea.getDocument().addUndoableEditListener(
+            new UndoableEditListener() {
+                public void undoableEditHappened(UndoableEditEvent e){
+                    um.addEdit(e.getEdit());
+                }
+            }
+        );
+
         scrollPane= new JScrollPane(textArea, JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED, JScrollPane.HORIZONTAL_SCROLLBAR_AS_NEEDED);
         scrollPane.setBorder(BorderFactory.createEmptyBorder());
         window.add(scrollPane);
