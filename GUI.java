@@ -20,6 +20,7 @@ public class GUI implements ActionListener{
     JMenuItem itemFontSize8, itemFontSize12, itemFontSize16, itemFontSize20, itemFontSize24, itemFontSize28;
     JMenu menuFont, menuFontSize;
     JMenuItem iColor1, iColor2, iColor3;
+    JMenuItem iUndo, iRedo;
 
     boolean wordWrapOn= false;
 
