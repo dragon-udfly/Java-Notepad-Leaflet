@@ -37,6 +37,10 @@ public class GUI implements ActionListener{
         createFileMenu();
         createFormatMenu();
         // call method above
+
+        format.selectedFont= "Arial";
+        format.createFont(12);
+        
         window.setVisible(true);
     }
 
