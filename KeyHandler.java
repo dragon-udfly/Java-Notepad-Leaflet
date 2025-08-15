@@ -32,6 +32,10 @@ public class KeyHandler implements KeyListener{
         if(e.isShiftDown() && e.isControlDown() && e.getKeyCode() == KeyEvent.VK_Z){
             gui.edit.redo();
         }
+
+        if(e.isControlDown() && e.getKeyCode() == KeyEvent.VK_N){
+            gui.file.newFile();
+        }
     }
 
     @Override
