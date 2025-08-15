@@ -178,6 +178,24 @@ public class GUI implements ActionListener{
             case "Word Wrap":
             format.wordWrap();
             break;
+            case "size8":
+            format.createFont(8);
+            break;
+            case "size12":
+            format.createFont(12);
+            break;
+            case "size16":
+            format.createFont(16);
+            break;
+            case "size20":
+            format.createFont(20);
+            break;
+            case "size24":
+            format.createFont(24);
+            break;
+            case "size28":
+            format.createFont(28);
+            break;
         }
     }
 
