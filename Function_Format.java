@@ -23,6 +23,8 @@ public class Function_Format {
     }
 
     public void createFont(int fontSize){
-        
+        arial= new Font("Arial", Font.PLAIN, fontSize);
+        comicSansMs= new Font("Comic Sans MS", Font.PLAIN, fontSize);
+        timesNewRoman= new Font("Times New Roman", Font.PLAIN, fontSize);
     }
 }
