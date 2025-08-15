@@ -27,4 +27,8 @@ public class Function_Format {
         comicSansMs= new Font("Comic Sans MS", Font.PLAIN, fontSize);
         timesNewRoman= new Font("Times New Roman", Font.PLAIN, fontSize);
     }
+
+    public void setFont(String font){
+        
+    }
 }
