@@ -40,7 +40,7 @@ public class GUI implements ActionListener{
 
         format.selectedFont= "Arial";
         format.createFont(12);
-        
+
         window.setVisible(true);
     }
 
@@ -206,7 +206,7 @@ public class GUI implements ActionListener{
             case "Comic Sans MS":
             format.setFont(command);
             break;
-            case "Times new Roman":
+            case "Times New Roman":
             format.setFont(command);
             break;
         }

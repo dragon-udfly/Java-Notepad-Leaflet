@@ -41,7 +41,7 @@ public class Function_Format {
             case "Comic Sans MS":
             gui.textArea.setFont(comicSansMs);
             break;
-            case "Times new Roman":
+            case "Times New Roman":
             gui.textArea.setFont(timesNewRoman);
             break;
         }
