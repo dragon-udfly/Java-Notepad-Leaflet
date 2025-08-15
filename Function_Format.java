@@ -21,4 +21,8 @@ public class Function_Format {
             gui.itemWrap.setText("Word Wrap: Off");
         }
     }
+
+    public void createFont(int fontSize){
+        
+    }
 }
