@@ -30,6 +30,7 @@ public class GUI implements ActionListener{
     Function_File file= new Function_File(this);
     Function_Format format= new Function_Format(this);
     Function_Color color= new Function_Color(this);
+    Function_Edit edit= new Function_Edit(this);
 
     UndoManager um= new UndoManager();
 
