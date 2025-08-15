@@ -4,4 +4,12 @@ public class Function_Edit {
     public Function_Edit(GUI gui){
         this.gui= gui;
     }
+
+    public void undo(){
+
+    }
+
+    public void redo(){
+        
+    }
 }
