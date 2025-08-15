@@ -5,6 +5,7 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
+import javax.swing.undo.UndoManager;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -27,6 +28,8 @@ public class GUI implements ActionListener{
     Function_File file= new Function_File(this);
     Function_Format format= new Function_Format(this);
     Function_Color color= new Function_Color(this);
+
+    UndoManager um= new UndoManager();
 
     public static void main(String args[]){
         new GUI();
