@@ -18,6 +18,8 @@ public class KeyHandler implements KeyListener{
     public void keyPressed(KeyEvent e) {
         if(e.isControlDown() && e.getKeyCode() == KeyEvent.VK_S){
             gui.file.saveFile();
+        }else if(e.isShiftDown() && e.isControlDown() && e.getKeyCode() == KeyEvent.VK_S){
+            gui.file.saveAsFile();
         }
     }
 
