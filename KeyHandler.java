@@ -16,7 +16,9 @@ public class KeyHandler implements KeyListener{
 
     @Override
     public void keyPressed(KeyEvent e) {
-  
+        if(e.isControlDown() && e.getKeyCode() == KeyEvent.VK_S){
+            gui.file.saveFile();
+        }
     }
 
     @Override
