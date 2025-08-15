@@ -37,6 +37,7 @@ public class GUI implements ActionListener{
         createMenuBar();
         createFileMenu();
         createFormatMenu();
+        createColorMenu();
         // call method above
 
         format.selectedFont= "Arial";
@@ -161,7 +162,7 @@ public class GUI implements ActionListener{
     }
 
     public void createColorMenu(){
-        
+
     }
 
     @Override
