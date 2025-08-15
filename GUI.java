@@ -25,6 +25,7 @@ public class GUI implements ActionListener{
 
     Function_File file= new Function_File(this);
     Function_Format format= new Function_Format(this);
+    Function_Color color= new Function_Color(this);
 
     public static void main(String args[]){
         new GUI();
