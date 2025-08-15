@@ -30,6 +30,18 @@ public class Function_Format {
     }
 
     public void setFont(String font){
+        selectedFont= font;
 
+        switch(selectedFont){
+            case "Arial":
+            gui.textArea.setFont(arial);
+            break;
+            case "Comic Sans MS":
+            gui.textArea.setFont(comicSansMs);
+            break;
+            case "Times new Roman":
+            gui.textArea.setFont(timesNewRoman);
+            break;
+        }
     }
 }
