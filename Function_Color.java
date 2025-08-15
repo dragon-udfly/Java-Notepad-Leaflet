@@ -20,9 +20,9 @@ public class Function_Color {
             gui.textArea.setForeground(Color.black);
             break;
             case "Blue":
-            gui.window.getContentPane().setBackground(Color.blue);
-            gui.textArea.setBackground(Color.blue);
-            gui.textArea.setForeground(Color.white);
+            gui.window.getContentPane().setBackground(new Color(3, 177, 252));
+            gui.textArea.setBackground(new Color(3, 177, 252));
+            gui.textArea.setForeground(new Color(0, 0, 30));
             break;
         }
     }
