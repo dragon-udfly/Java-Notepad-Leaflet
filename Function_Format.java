@@ -1,5 +1,8 @@
+import java.awt.Font;
+
 public class Function_Format {
     GUI gui;
+    Font arial, comicSansMs, timesNewRoman;
 
     public Function_Format(GUI gui){
         this.gui= gui;
