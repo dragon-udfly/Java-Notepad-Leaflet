@@ -20,6 +20,8 @@ public class KeyHandler implements KeyListener{
             gui.file.saveFile();
         }else if(e.isShiftDown() && e.isControlDown() && e.getKeyCode() == KeyEvent.VK_S){
             gui.file.saveAsFile();
+        }else if(e.isAltDown() && e.getKeyCode() == KeyEvent.VK_F){
+            gui.menuFile.doClick();
         }
     }
 
