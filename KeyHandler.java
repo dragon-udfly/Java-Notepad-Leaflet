@@ -40,6 +40,10 @@ public class KeyHandler implements KeyListener{
         if(e.isControlDown() && e.getKeyCode() == KeyEvent.VK_O){
             gui.file.openFile();
         }
+
+        if(e.isShiftDown() && e.isAltDown() && e.getKeyCode() == KeyEvent.VK_F){
+            gui.menuFormat.doClick();
+        }
     }
 
     @Override
