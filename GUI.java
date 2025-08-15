@@ -196,6 +196,15 @@ public class GUI implements ActionListener{
             case "size28":
             format.createFont(28);
             break;
+            case "Arial":
+            format.setFont(command);
+            break;
+            case "Comic Sans MS":
+            format.setFont(command);
+            break;
+            case "Times new Roman":
+            format.setFont(command);
+            break;
         }
     }
 
