@@ -40,6 +40,7 @@ public class GUI implements ActionListener{
         createFileMenu();
         createFormatMenu();
         createColorMenu();
+        createEditMenu();
         // call method above
 
         format.selectedFont= "Arial";
@@ -180,6 +181,10 @@ public class GUI implements ActionListener{
         iColor3.addActionListener(this);
         iColor3.setActionCommand("Blue");
         menuColor.add(iColor3);
+    }
+
+    public void createEditMenu(){
+
     }
 
     @Override
