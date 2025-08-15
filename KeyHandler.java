@@ -36,6 +36,10 @@ public class KeyHandler implements KeyListener{
         if(e.isControlDown() && e.getKeyCode() == KeyEvent.VK_N){
             gui.file.newFile();
         }
+
+        if(e.isControlDown() && e.getKeyCode() == KeyEvent.VK_O){
+            gui.file.openFile();
+        }
     }
 
     @Override
