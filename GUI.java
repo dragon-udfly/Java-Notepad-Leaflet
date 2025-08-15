@@ -165,7 +165,7 @@ public class GUI implements ActionListener{
     public void createColorMenu(){
         iColor1= new JMenuItem("Red");
         iColor1.addActionListener(this);
-        iColor1.setActionCommand("White");
+        iColor1.setActionCommand("Red");
         menuColor.add(iColor1);
 
         iColor2= new JMenuItem("Black");
@@ -228,6 +228,15 @@ public class GUI implements ActionListener{
             break;
             case "Times New Roman":
             format.setFont(command);
+            break;
+            case "Red":
+            color.changeColor(command);
+            break;
+            case "Black":
+            color.changeColor(command);
+            break;
+            case "Blue":
+            color.changeColor(command);
             break;
         }
     }
