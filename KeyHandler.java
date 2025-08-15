@@ -16,13 +16,16 @@ public class KeyHandler implements KeyListener{
 
     @Override
     public void keyPressed(KeyEvent e) {
-        if(e.isControlDown() && e.getKeyCode() == KeyEvent.VK_S){
+        if(!e.isShiftDown() && e.isControlDown() && e.getKeyCode() == KeyEvent.VK_S){
             gui.file.saveFile();
-        }else if(e.isShiftDown() && e.isControlDown() && e.getKeyCode() == KeyEvent.VK_S){
+        }
+        if(e.isShiftDown() && e.isControlDown() && e.getKeyCode() == KeyEvent.VK_S){
             gui.file.saveAsFile();
-        }else if(e.isAltDown() && e.getKeyCode() == KeyEvent.VK_F){
+        }
+        if(e.isAltDown() && e.getKeyCode() == KeyEvent.VK_F){
             gui.menuFile.doClick();
-        }else if(e.isControlDown() && e.getKeyChar() == KeyEvent.VK_Z){
+        }
+        if(e.isControlDown() && e.getKeyCode() == KeyEvent.VK_Z){
             gui.edit.undo();
         }
     }
