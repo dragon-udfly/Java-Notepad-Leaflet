@@ -162,7 +162,20 @@ public class GUI implements ActionListener{
     }
 
     public void createColorMenu(){
+        iColor1= new JMenuItem("Red");
+        iColor1.addActionListener(this);
+        iColor1.setActionCommand("White");
+        menuColor.add(iColor1);
 
+        iColor2= new JMenuItem("Black");
+        iColor2.addActionListener(this);
+        iColor2.setActionCommand("Black");
+        menuColor.add(iColor2);
+
+        iColor3= new JMenuItem("Blue");
+        iColor3.addActionListener(this);
+        iColor3.setActionCommand("Blue");
+        menuColor.add(iColor3);
     }
 
     @Override
