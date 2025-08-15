@@ -67,6 +67,8 @@ public class GUI implements ActionListener{
     public void createTextArea(){
         textArea= new JTextArea();
 
+        textArea.addKeyListener(key);
+
         textArea.getDocument().addUndoableEditListener(
             new UndoableEditListener() {
                 public void undoableEditHappened(UndoableEditEvent e){
