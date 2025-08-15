@@ -160,6 +160,10 @@ public class GUI implements ActionListener{
         menuFontSize.add(itemFontSize28);
     }
 
+    public void createColorMenu(){
+        
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
         String command= e.getActionCommand();
