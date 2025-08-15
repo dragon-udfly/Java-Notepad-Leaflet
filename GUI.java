@@ -43,6 +43,8 @@ public class GUI implements ActionListener{
 
         format.selectedFont= "Arial";
         format.createFont(12);
+        format.wordWrap();
+        color.changeColor("White");
 
         window.setVisible(true);
     }
