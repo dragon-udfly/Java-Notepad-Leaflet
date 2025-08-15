@@ -3,6 +3,7 @@ import java.awt.Font;
 public class Function_Format {
     GUI gui;
     Font arial, comicSansMs, timesNewRoman;
+    String selectedFont;
 
     public Function_Format(GUI gui){
         this.gui= gui;
@@ -29,6 +30,6 @@ public class Function_Format {
     }
 
     public void setFont(String font){
-        
+
     }
 }
