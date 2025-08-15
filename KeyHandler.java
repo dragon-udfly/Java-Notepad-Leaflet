@@ -25,8 +25,12 @@ public class KeyHandler implements KeyListener{
         if(e.isAltDown() && e.getKeyCode() == KeyEvent.VK_F){
             gui.menuFile.doClick();
         }
-        if(e.isControlDown() && e.getKeyCode() == KeyEvent.VK_Z){
+        if(!e.isShiftDown() && e.isControlDown() && e.getKeyCode() == KeyEvent.VK_Z){
             gui.edit.undo();
+        }
+
+        if(e.isShiftDown() && e.isControlDown() && e.getKeyCode() == KeyEvent.VK_Z){
+            gui.edit.redo();
         }
     }
 
