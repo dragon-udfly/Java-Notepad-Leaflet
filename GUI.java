@@ -230,6 +230,12 @@ public class GUI implements ActionListener{
             case "Exit":
             file.exit();
             break;
+            case "Undo":
+            edit.undo();
+            break;
+            case "Redo":
+            edit.redo();
+            break;
             case "Word Wrap":
             format.wordWrap();
             break;
