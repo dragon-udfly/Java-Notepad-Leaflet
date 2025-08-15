@@ -6,10 +6,10 @@ public class Function_Edit {
     }
 
     public void undo(){
-
+        gui.um.undo();
     }
 
     public void redo(){
-        
+        gui.um.redo();
     }
 }
