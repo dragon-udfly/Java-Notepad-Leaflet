@@ -184,7 +184,15 @@ public class GUI implements ActionListener{
     }
 
     public void createEditMenu(){
+        iUndo= new JMenuItem("Undo");
+        iUndo.addActionListener(this);
+        iUndo.setActionCommand("Undo");
+        menuEdit.add(iUndo);
 
+        iRedo= new JMenuItem("Redo");
+        iRedo.addActionListener(this);
+        iRedo.setActionCommand("Redo");
+        menuEdit.add(iRedo);
     }
 
     @Override
