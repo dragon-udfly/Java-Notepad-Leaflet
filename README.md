@@ -23,26 +23,23 @@
 
 ## 📸 Screenshot
 ### Interface 
-<img width="1112" height="873" alt="Screenshot 2025-08-18 213850" src="https://github.com/user-attachments/assets/a992bdfe-1e1d-401b-b967-39fe93721c94" />
+<img width="1110" height="871" alt="Screenshot 2025-08-25 200223" src="https://github.com/user-attachments/assets/c6f3afd8-c68b-4cad-9a7b-f7070f95f877" />
 
-### File menu and menu items
-<img width="1113" height="871" alt="Screenshot 2025-08-18 213919" src="https://github.com/user-attachments/assets/76f6971d-1601-4e4e-a839-cd014fc610c1" />
-
-### Format menu sub-menu and menu items
-<img width="1116" height="873" alt="Screenshot 2025-08-18 213949" src="https://github.com/user-attachments/assets/d1866acd-ca8d-4f28-aca6-0b17e06310c3" />
+### New file
+<img width="1106" height="867" alt="Screenshot 2025-08-25 200248" src="https://github.com/user-attachments/assets/36fdc7dc-cc54-4b42-a9ea-e8bb80539040" />
 
 ### Open a file
-<img width="1114" height="873" alt="Screenshot 2025-08-18 214020" src="https://github.com/user-attachments/assets/481feed2-0ab5-4221-95a9-d92695e334a3" />
+<img width="1111" height="875" alt="Screenshot 2025-08-25 200513" src="https://github.com/user-attachments/assets/aedf807c-3eb5-4f3e-bd16-4025fe82e065" />
 
 ### Saving a file
-<img width="1108" height="867" alt="Screenshot 2025-08-18 214056" src="https://github.com/user-attachments/assets/53497f4b-cb50-44bc-873c-d5b2d3403e32" />
+<img width="1107" height="865" alt="Screenshot 2025-08-25 201031" src="https://github.com/user-attachments/assets/dcf372ff-5412-49bd-b616-0d2ab456b82e" />
 
 ### Changing font and font size 
-<img width="1109" height="870" alt="Screenshot 2025-08-25 191509" src="https://github.com/user-attachments/assets/5b34b4c9-5b57-4197-aef7-e584e1fda10f" />
+<img width="1107" height="867" alt="Screenshot 2025-08-25 200550" src="https://github.com/user-attachments/assets/7957f238-f162-4ff9-9fde-349cfb3312b4" />
 
-<img width="1114" height="872" alt="Screenshot 2025-08-25 191547" src="https://github.com/user-attachments/assets/93bbc459-3819-4a6b-a882-5b392953a979" />
+<img width="1105" height="870" alt="Screenshot 2025-08-25 200613" src="https://github.com/user-attachments/assets/77c0fe12-ec38-4cf1-84b4-9204434960df" />
 
-### Changing color
-<img width="1109" height="868" alt="Screenshot 2025-08-25 193319" src="https://github.com/user-attachments/assets/5159665b-1900-4cc9-b02f-40e36796ed06" />
+### Change font, font size, color
+<img width="1107" height="864" alt="Screenshot 2025-08-25 200715" src="https://github.com/user-attachments/assets/21588abe-009b-491d-9add-5f7b36f303a7" />
 
 ---
