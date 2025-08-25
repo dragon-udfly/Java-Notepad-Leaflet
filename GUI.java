@@ -62,6 +62,7 @@ public class GUI implements ActionListener{
         window= new JFrame("Leaflet");
         window.setSize(900, 700);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.setLocationRelativeTo(null);
     }
 
     public void createTextArea(){
