@@ -37,4 +37,12 @@
 ### Saving a file
 <img width="1108" height="867" alt="Screenshot 2025-08-18 214056" src="https://github.com/user-attachments/assets/53497f4b-cb50-44bc-873c-d5b2d3403e32" />
 
+### Changing font and font size 
+<img width="1109" height="870" alt="Screenshot 2025-08-25 191509" src="https://github.com/user-attachments/assets/5b34b4c9-5b57-4197-aef7-e584e1fda10f" />
+
+<img width="1114" height="872" alt="Screenshot 2025-08-25 191547" src="https://github.com/user-attachments/assets/93bbc459-3819-4a6b-a882-5b392953a979" />
+
+### Changing color
+<img width="1109" height="868" alt="Screenshot 2025-08-25 193319" src="https://github.com/user-attachments/assets/5159665b-1900-4cc9-b02f-40e36796ed06" />
+
 ---
