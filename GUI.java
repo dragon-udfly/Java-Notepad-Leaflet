@@ -10,6 +10,7 @@ import javax.swing.event.UndoableEditListener;
 import javax.swing.undo.UndoManager;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.ImageIcon;
 
 public class GUI implements ActionListener{
 
@@ -63,6 +64,9 @@ public class GUI implements ActionListener{
         window.setSize(900, 700);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setLocationRelativeTo(null);
+
+        ImageIcon icon= new ImageIcon("./sources/icon.png");
+        window.setIconImage(icon.getImage());
     }
 
     public void createTextArea(){
